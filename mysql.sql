@@ -6,7 +6,7 @@ Phone int(12) not null,
 PRIMARY KEY (Email)
 );
 
-CREATE TABLE booking (
+CREATE TABLE bookings (
 bookingNo int(6) not null auto_increment,
 email varchar(30) not null,
 passName varchar(30) not null, 
